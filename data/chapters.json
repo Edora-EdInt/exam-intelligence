@@ -1,0 +1,200 @@
+[
+  {
+    "id": "ch-mat-01",
+    "name": "Real Numbers",
+    "subject": "Mathematics",
+    "class": "10",
+    "board": "CBSE",
+    "totalQuestions": 7,
+    "totalMarksCoverage": 10
+  },
+  {
+    "id": "ch-mat-02",
+    "name": "Polynomials",
+    "subject": "Mathematics",
+    "class": "10",
+    "board": "CBSE",
+    "totalQuestions": 6,
+    "totalMarksCoverage": 7
+  },
+  {
+    "id": "ch-mat-03",
+    "name": "Quadratic Equations",
+    "subject": "Mathematics",
+    "class": "10",
+    "board": "CBSE",
+    "totalQuestions": 7,
+    "totalMarksCoverage": 13
+  },
+  {
+    "id": "ch-mat-04",
+    "name": "Introduction to Trigonometry",
+    "subject": "Mathematics",
+    "class": "10",
+    "board": "CBSE",
+    "totalQuestions": 8,
+    "totalMarksCoverage": 15
+  },
+  {
+    "id": "ch-mat-05",
+    "name": "Statistics",
+    "subject": "Mathematics",
+    "class": "10",
+    "board": "CBSE",
+    "totalQuestions": 8,
+    "totalMarksCoverage": 15
+  },
+  {
+    "id": "ch-mat-06",
+    "name": "Arithmetic Progressions",
+    "subject": "Mathematics",
+    "class": "10",
+    "board": "CBSE",
+    "totalQuestions": 8,
+    "totalMarksCoverage": 19
+  },
+  {
+    "id": "ch-mat-07",
+    "name": "Coordinate Geometry",
+    "subject": "Mathematics",
+    "class": "10",
+    "board": "CBSE",
+    "totalQuestions": 8,
+    "totalMarksCoverage": 14
+  },
+  {
+    "id": "ch-phy-01",
+    "name": "Light – Reflection and Refraction",
+    "subject": "Physics",
+    "class": "10",
+    "board": "CBSE",
+    "totalQuestions": 6,
+    "totalMarksCoverage": 9
+  },
+  {
+    "id": "ch-phy-02",
+    "name": "The Human Eye and the Colourful World",
+    "subject": "Physics",
+    "class": "10",
+    "board": "CBSE",
+    "totalQuestions": 7,
+    "totalMarksCoverage": 11
+  },
+  {
+    "id": "ch-phy-03",
+    "name": "Electricity",
+    "subject": "Physics",
+    "class": "10",
+    "board": "CBSE",
+    "totalQuestions": 6,
+    "totalMarksCoverage": 13
+  },
+  {
+    "id": "ch-phy-04",
+    "name": "Magnetic Effects of Electric Current",
+    "subject": "Physics",
+    "class": "10",
+    "board": "CBSE",
+    "totalQuestions": 8,
+    "totalMarksCoverage": 14
+  },
+  {
+    "id": "ch-phy-05",
+    "name": "Sources of Energy",
+    "subject": "Physics",
+    "class": "10",
+    "board": "CBSE",
+    "totalQuestions": 7,
+    "totalMarksCoverage": 11
+  },
+  {
+    "id": "ch-che-01",
+    "name": "Chemical Reactions and Equations",
+    "subject": "Chemistry",
+    "class": "10",
+    "board": "CBSE",
+    "totalQuestions": 8,
+    "totalMarksCoverage": 9
+  },
+  {
+    "id": "ch-che-02",
+    "name": "Acids, Bases and Salts",
+    "subject": "Chemistry",
+    "class": "10",
+    "board": "CBSE",
+    "totalQuestions": 6,
+    "totalMarksCoverage": 7
+  },
+  {
+    "id": "ch-che-03",
+    "name": "Metals and Non-metals",
+    "subject": "Chemistry",
+    "class": "10",
+    "board": "CBSE",
+    "totalQuestions": 7,
+    "totalMarksCoverage": 19
+  },
+  {
+    "id": "ch-che-04",
+    "name": "Carbon and its Compounds",
+    "subject": "Chemistry",
+    "class": "10",
+    "board": "CBSE",
+    "totalQuestions": 6,
+    "totalMarksCoverage": 13
+  },
+  {
+    "id": "ch-che-05",
+    "name": "Periodic Classification of Elements",
+    "subject": "Chemistry",
+    "class": "10",
+    "board": "CBSE",
+    "totalQuestions": 7,
+    "totalMarksCoverage": 17
+  },
+  {
+    "id": "ch-bio-01",
+    "name": "Cell Structure",
+    "subject": "Biology",
+    "class": "10",
+    "board": "ICSE",
+    "totalQuestions": 8,
+    "totalMarksCoverage": 12
+  },
+  {
+    "id": "ch-bio-02",
+    "name": "Plant Physiology",
+    "subject": "Biology",
+    "class": "10",
+    "board": "ICSE",
+    "totalQuestions": 8,
+    "totalMarksCoverage": 20
+  },
+  {
+    "id": "ch-bio-03",
+    "name": "Human Physiology",
+    "subject": "Biology",
+    "class": "10",
+    "board": "ICSE",
+    "totalQuestions": 6,
+    "totalMarksCoverage": 11
+  },
+  {
+    "id": "ch-bio-04",
+    "name": "Genetics and Evolution",
+    "subject": "Biology",
+    "class": "10",
+    "board": "ICSE",
+    "totalQuestions": 7,
+    "totalMarksCoverage": 10
+  },
+  {
+    "id": "ch-bio-05",
+    "name": "Ecology and Environment",
+    "subject": "Biology",
+    "class": "10",
+    "board": "ICSE",
+    "totalQuestions": 8,
+    "totalMarksCoverage": 10
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "stu-01",
+    "name": "Aarav Sharma",
+    "class": "10",
+    "section": "A"
+  },
+  {
+    "id": "stu-02",
+    "name": "Diya Patel",
+    "class": "10",
+    "section": "B"
+  },
+  {
+    "id": "stu-03",
+    "name": "Vihaan Mehta",
+    "class": "10",
+    "section": "A"
+  },
+  {
+    "id": "stu-04",
+    "name": "Ananya Iyer",
+    "class": "10",
+    "section": "B"
+  },
+  {
+    "id": "stu-05",
+    "name": "Arjun Nair",
+    "class": "10",
+    "section": "A"
+  },
+  {
+    "id": "stu-06",
+    "name": "Ishita Bose",
+    "class": "10",
+    "section": "B"
+  },
+  {
+    "id": "stu-07",
+    "name": "Kabir Singh",
+    "class": "10",
+    "section": "A"
+  },
+  {
+    "id": "stu-08",
+    "name": "Meera Krishnan",
+    "class": "10",
+    "section": "B"
+  },
+  {
+    "id": "stu-09",
+    "name": "Rohan Gupta",
+    "class": "10",
+    "section": "A"
+  },
+  {
+    "id": "stu-10",
+    "name": "Sara Fernandes",
+    "class": "10",
+    "section": "B"
+  },
+  {
+    "id": "stu-11",
+    "name": "Aditya Rao",
+    "class": "10",
+    "section": "A"
+  },
+  {
+    "id": "stu-12",
+    "name": "Naina Kulkarni",
+    "class": "10",
+    "section": "B"
+  },
+  {
+    "id": "stu-13",
+    "name": "Dev Malhotra",
+    "class": "10",
+    "section": "A"
+  },
+  {
+    "id": "stu-14",
+    "name": "Tara Menon",
+    "class": "10",
+    "section": "B"
+  },
+  {
+    "id": "stu-15",
+    "name": "Yash Agarwal",
+    "class": "10",
+    "section": "A"
+  },
+  {
+    "id": "stu-16",
+    "name": "Zoya Khan",
+    "class": "10",
+    "section": "B"
+  }
+]

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chapter Intelligence · EdInt Intelligence</title>
+  <link rel="icon" href="data:," />
+  <script src="js/exi-boot.js"></script>
+  <link rel="stylesheet" href="css/exi.css" />
+</head>
+<body data-exi-page="chapter-intelligence">
+  <div class="exi-app">
+    <main class="exi-content">
+      <div class="exi-page">
+        <header class="exi-page-head">
+          <div>
+            <h1 class="exi-page-title">Chapter Intelligence</h1>
+            <p class="exi-page-sub">
+              Browse the chapter bank and inspect each chapter's question-type mix
+              and difficulty distribution.
+            </p>
+          </div>
+          <span class="exi-badge exi-badge--live">Phase 1 · Live</span>
+        </header>
+
+        <section class="exi-filters" aria-label="Chapter filters">
+          <div class="exi-field">
+            <label class="exi-field-label" for="exi-filter-subject">Subject</label>
+            <select id="exi-filter-subject" class="exi-select">
+              <option value="">All subjects</option>
+            </select>
+          </div>
+          <div class="exi-field">
+            <label class="exi-field-label" for="exi-filter-class">Class</label>
+            <select id="exi-filter-class" class="exi-select">
+              <option value="">All classes</option>
+            </select>
+          </div>
+          <div class="exi-field">
+            <label class="exi-field-label" for="exi-filter-board">Board</label>
+            <select id="exi-filter-board" class="exi-select">
+              <option value="">All boards</option>
+            </select>
+          </div>
+        </section>
+
+        <div class="exi-split">
+          <section class="exi-card exi-list-card" aria-label="Chapters">
+            <div id="exi-chapter-list" class="exi-list"></div>
+          </section>
+          <section id="exi-chapter-detail" class="exi-card exi-detail" aria-label="Chapter detail"></section>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/lucide@0.454.0/dist/umd/lucide.min.js"></script>
+  <script src="js/exi-api.js"></script>
+  <script src="js/exi-shell.js"></script>
+  <script src="js/pages/chapter-intelligence.js"></script>
+</body>
+</html>

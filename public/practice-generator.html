@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Practice Generator · EdInt Intelligence</title>
+  <link rel="icon" href="data:," />
+  <script src="js/exi-boot.js"></script>
+  <link rel="stylesheet" href="css/exi.css" />
+</head>
+<body data-exi-page="practice-generator">
+  <div class="exi-app">
+    <main class="exi-content">
+      <div class="exi-page">
+        <header class="exi-page-head">
+          <div>
+            <h1 class="exi-page-title">Practice Generator</h1>
+            <p class="exi-page-sub">
+              Pick a student and generate a personalized set from their weakest
+              chapters &mdash; previously-mastered questions are excluded.
+            </p>
+          </div>
+          <span class="exi-badge exi-badge--live">Phase 3 · Live</span>
+        </header>
+
+        <section class="exi-filters" aria-label="Practice controls">
+          <div class="exi-field exi-field--grow">
+            <label class="exi-field-label" for="exi-practice-student">Student</label>
+            <select id="exi-practice-student" class="exi-select"></select>
+          </div>
+          <div class="exi-field">
+            <label class="exi-field-label" for="exi-practice-count">Questions</label>
+            <input id="exi-practice-count" class="exi-input" type="number" min="1" value="10" />
+          </div>
+          <div class="exi-field exi-field--btn">
+            <button type="button" id="exi-generate-btn" class="exi-btn exi-btn--primary">
+              <i data-lucide="shuffle"></i>Generate Practice Test
+            </button>
+          </div>
+        </section>
+
+        <section id="exi-practice-output" aria-label="Generated practice test"></section>
+      </div>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/lucide@0.454.0/dist/umd/lucide.min.js"></script>
+  <script src="js/exi-api.js"></script>
+  <script src="js/exi-shell.js"></script>
+  <script src="js/exi-practice-view.js"></script>
+  <script src="js/pages/practice-generator.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Class Analytics · EdInt Intelligence</title>
+  <link rel="icon" href="data:," />
+  <script src="js/exi-boot.js"></script>
+  <link rel="stylesheet" href="css/exi.css" />
+</head>
+<body data-exi-page="class-analytics">
+  <div class="exi-app">
+    <main class="exi-content">
+      <div class="exi-page">
+        <header class="exi-page-head">
+          <div>
+            <h1 class="exi-page-title">Class Analytics</h1>
+            <p class="exi-page-sub">
+              Class-level performance: average score, readiness mix, roster,
+              and the chapters the class is collectively strong or weak in.
+            </p>
+          </div>
+          <span class="exi-badge exi-badge--live">Phase 2 · Live</span>
+        </header>
+
+        <section class="exi-filters" aria-label="Class filter">
+          <div class="exi-field">
+            <label class="exi-field-label" for="exi-filter-class-section">Class · Section</label>
+            <select id="exi-filter-class-section" class="exi-select">
+              <option value="">Loading&hellip;</option>
+            </select>
+          </div>
+        </section>
+
+        <section class="exi-stat-grid" id="exi-ca-stats" aria-label="Class totals"></section>
+
+        <div class="exi-two-col">
+          <section class="exi-card" aria-label="Readiness mix">
+            <h2 class="exi-card-title">Readiness mix</h2>
+            <div id="exi-ca-mix"></div>
+          </section>
+          <section class="exi-card" aria-label="Strong chapters">
+            <h2 class="exi-card-title">Strong areas</h2>
+            <p class="exi-note" id="exi-ca-strong-note">&nbsp;</p>
+            <ul class="exi-flag-list" id="exi-ca-strong"></ul>
+          </section>
+          <section class="exi-card" aria-label="Weak chapters">
+            <h2 class="exi-card-title">Needs improvement</h2>
+            <p class="exi-note" id="exi-ca-weak-note">&nbsp;</p>
+            <ul class="exi-flag-list" id="exi-ca-weak"></ul>
+          </section>
+        </div>
+
+        <section class="exi-card" style="margin-top:20px;" aria-label="Class roster">
+          <h2 class="exi-card-title">Roster by score</h2>
+          <div id="exi-ca-roster"></div>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/lucide@0.454.0/dist/umd/lucide.min.js"></script>
+  <script src="js/exi-api.js"></script>
+  <script src="js/exi-shell.js"></script>
+  <script src="js/pages/class-analytics.js"></script>
+</body>
+</html>

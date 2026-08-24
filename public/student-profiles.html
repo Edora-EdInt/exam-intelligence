@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Student Profiles · EdInt Intelligence</title>
+  <link rel="icon" href="data:," />
+  <script src="js/exi-boot.js"></script>
+  <link rel="stylesheet" href="css/exi.css" />
+</head>
+<body data-exi-page="student-profiles">
+  <div class="exi-app">
+    <main class="exi-content">
+      <div class="exi-page">
+        <header class="exi-page-head">
+          <div>
+            <h1 class="exi-page-title">Student Profiles</h1>
+            <p class="exi-page-sub">
+              Per-student performance, chapter mastery, and why marks are
+              lost &mdash; computed live from exam answer records.
+            </p>
+          </div>
+          <span class="exi-badge exi-badge--live">Phase 2 · Live</span>
+        </header>
+
+        <section class="exi-filters" aria-label="Student filters">
+          <div class="exi-field exi-field--grow">
+            <label class="exi-field-label" for="exi-student-search">Search</label>
+            <input id="exi-student-search" class="exi-input" type="search"
+                   placeholder="Search students by name&hellip;" autocomplete="off" />
+          </div>
+          <div class="exi-field">
+            <label class="exi-field-label" for="exi-filter-class">Class</label>
+            <select id="exi-filter-class" class="exi-select">
+              <option value="">All classes</option>
+            </select>
+          </div>
+          <div class="exi-field">
+            <label class="exi-field-label" for="exi-filter-section">Section</label>
+            <select id="exi-filter-section" class="exi-select">
+              <option value="">All sections</option>
+            </select>
+          </div>
+        </section>
+
+        <div class="exi-split">
+          <section class="exi-card exi-list-card" aria-label="Students">
+            <div id="exi-student-list" class="exi-list"></div>
+          </section>
+          <section id="exi-student-detail" class="exi-card exi-detail" aria-label="Student profile"></section>
+        </div>
+
+        <section id="exi-practice-bar" class="exi-card" aria-label="Practice test generator" hidden>
+          <h2 class="exi-card-title"><i data-lucide="shuffle"></i>Generate Practice Test</h2>
+          <p class="exi-note">
+            Builds a set from this student's weakest chapters, excluding
+            questions they already answered correctly, weighted toward
+            Medium/Hard difficulty.
+          </p>
+          <div class="exi-practice-bar">
+            <label class="exi-field-label" for="exi-practice-count">Questions</label>
+            <input id="exi-practice-count" class="exi-input" style="max-width:110px" type="number"
+                   min="1" value="10" />
+            <button type="button" id="exi-practice-generate" class="exi-btn exi-btn--primary">
+              <i data-lucide="shuffle"></i>Generate Practice Test
+            </button>
+          </div>
+        </section>
+
+        <div id="exi-practice-result-slot"></div>
+      </div>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/lucide@0.454.0/dist/umd/lucide.min.js"></script>
+  <script src="js/exi-api.js"></script>
+  <script src="js/exi-shell.js"></script>
+  <script src="js/exi-practice-view.js"></script>
+  <script src="js/pages/student-profiles.js"></script>
+</body>
+</html>

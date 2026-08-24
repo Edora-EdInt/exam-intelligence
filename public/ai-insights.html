@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Insights · EdInt Intelligence</title>
+  <link rel="icon" href="data:," />
+  <script src="js/exi-boot.js"></script>
+  <link rel="stylesheet" href="css/exi.css" />
+</head>
+<body data-exi-page="ai-insights">
+  <div class="exi-app">
+    <main class="exi-content">
+      <div class="exi-page">
+        <header class="exi-page-head">
+          <div>
+            <h1 class="exi-page-title">AI Insights</h1>
+            <p class="exi-page-sub">
+              Rules-based teaching recommendations. Every answer is generated
+              by a transparent rule over exam data &mdash; no black boxes.
+            </p>
+          </div>
+          <span class="exi-badge exi-badge--live">Phase 3 · Live</span>
+        </header>
+
+        <section class="exi-filters" aria-label="Assistant controls">
+          <div class="exi-field">
+            <label class="exi-field-label" for="exi-class-select">Class</label>
+            <select id="exi-class-select" class="exi-select"></select>
+          </div>
+        </section>
+
+        <section aria-label="Preset questions">
+          <p class="exi-note">Ask the assistant &mdash; each button maps to one explainable backend query.</p>
+          <div class="exi-preset-row">
+            <button type="button" class="exi-btn" id="exi-preset-revise">
+              <i data-lucide="flag"></i>Which chapters should I revise before boards?
+            </button>
+            <button type="button" class="exi-btn" id="exi-preset-risk">
+              <i data-lucide="users"></i>Which students need attention?
+            </button>
+            <button type="button" class="exi-btn" id="exi-preset-mistakes">
+              <i data-lucide="clipboard-list"></i>What kind of mistakes is the class making?
+            </button>
+          </div>
+        </section>
+
+        <section id="exi-assistant-output" aria-label="Assistant answers"></section>
+      </div>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/lucide@0.454.0/dist/umd/lucide.min.js"></script>
+  <script src="js/exi-api.js"></script>
+  <script src="js/exi-shell.js"></script>
+  <script src="js/pages/ai-insights.js"></script>
+</body>
+</html>

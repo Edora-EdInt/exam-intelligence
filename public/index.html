@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EdInt Intelligence</title>
+  <link rel="icon" href="data:," />
+  <script src="js/exi-boot.js"></script>
+  <link rel="stylesheet" href="css/exi.css" />
+</head>
+<body data-exi-page="">
+  <div class="exi-app">
+    <main class="exi-content">
+      <div class="exi-page">
+        <header class="exi-page-head">
+          <div>
+            <h1 class="exi-page-title">EdInt Intelligence</h1>
+            <p class="exi-page-sub">
+              Standalone assessment-intelligence module · Express + JSON-file store ·
+              vanilla frontend. Every number below is fetched live from the API.
+            </p>
+          </div>
+          <span class="exi-badge" id="exi-health-badge">checking&hellip;</span>
+        </header>
+
+        <section class="exi-stat-grid" aria-label="Data store snapshot">
+          <div class="exi-stat"><div class="exi-stat-value exi-num" id="exi-stat-chapters">&nbsp;</div><div class="exi-stat-label">Chapters</div></div>
+          <div class="exi-stat"><div class="exi-stat-value exi-num" id="exi-stat-questions">&nbsp;</div><div class="exi-stat-label">Questions</div></div>
+          <div class="exi-stat"><div class="exi-stat-value exi-num" id="exi-stat-exams">&nbsp;</div><div class="exi-stat-label">Exam records</div></div>
+          <div class="exi-stat"><div class="exi-stat-value exi-num" id="exi-stat-students">&nbsp;</div><div class="exi-stat-label">Students</div></div>
+          <div class="exi-stat"><div class="exi-stat-value exi-num" id="exi-stat-answers">&nbsp;</div><div class="exi-stat-label">Student answers</div></div>
+        </section>
+
+        <div class="exi-two-col">
+          <section class="exi-card" aria-label="API surface check">
+            <h2 class="exi-card-title">API surface</h2>
+            <div id="exi-endpoint-checks" class="exi-endpoint-list"></div>
+          </section>
+
+          <section class="exi-card" aria-label="Delivery plan">
+            <h2 class="exi-card-title">Delivery plan</h2>
+            <ul class="exi-roadmap">
+              <li>
+                <span class="exi-badge exi-badge--live">Live</span>
+                <div><strong>Phase 1 · Assessment Intelligence Foundation</strong>
+                <p>Chapter Intelligence · Question Trends · Exam Patterns · Question Bank Health</p></div>
+              </li>
+              <li>
+                <span class="exi-badge exi-badge--live">Live</span>
+                <div><strong>Phase 2 · Student Performance</strong>
+                <p>Student Profiles · Class Analytics</p></div>
+              </li>
+              <li>
+                <span class="exi-badge exi-badge--live">Live</span>
+                <div><strong>Phase 3 · Assistant</strong>
+                <p>AI Insights · Practice Generator · Adaptive Demo</p></div>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/lucide@0.454.0/dist/umd/lucide.min.js"></script>
+  <script src="js/exi-api.js"></script>
+  <script src="js/exi-shell.js"></script>
+  <script src="js/pages/overview.js"></script>
+</body>
+</html>

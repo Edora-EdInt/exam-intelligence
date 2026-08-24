@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Question Trends · EdInt Intelligence</title>
+  <link rel="icon" href="data:," />
+  <script src="js/exi-boot.js"></script>
+  <link rel="stylesheet" href="css/exi.css" />
+</head>
+<body data-exi-page="question-trends">
+  <div class="exi-app">
+    <main class="exi-content">
+      <div class="exi-page">
+        <header class="exi-page-head">
+          <div>
+            <h1 class="exi-page-title">Question Trends</h1>
+            <p class="exi-page-sub">
+              Most-tested concepts across past exam papers, ranked by how often
+              they appear in exam records.
+            </p>
+          </div>
+          <span class="exi-badge exi-badge--live">Phase 1 · Live</span>
+        </header>
+
+        <section class="exi-filters" aria-label="Trend filters">
+          <div class="exi-field">
+            <label class="exi-field-label" for="exi-filter-subject">Subject</label>
+            <select id="exi-filter-subject" class="exi-select">
+              <option value="">All subjects</option>
+            </select>
+          </div>
+        </section>
+
+        <section class="exi-card" aria-label="Most tested concepts">
+          <div id="exi-trends-body"></div>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/lucide@0.454.0/dist/umd/lucide.min.js"></script>
+  <script src="js/exi-api.js"></script>
+  <script src="js/exi-shell.js"></script>
+  <script src="js/pages/question-trends.js"></script>
+</body>
+</html>

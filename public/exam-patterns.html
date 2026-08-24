@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Exam Patterns · EdInt Intelligence</title>
+  <link rel="icon" href="data:," />
+  <script src="js/exi-boot.js"></script>
+  <link rel="stylesheet" href="css/exi.css" />
+</head>
+<body data-exi-page="exam-patterns">
+  <div class="exi-app">
+    <main class="exi-content">
+      <div class="exi-page">
+        <header class="exi-page-head">
+          <div>
+            <h1 class="exi-page-title">Exam Pattern Intelligence</h1>
+            <p class="exi-page-sub">
+              Typical chapter weightage across past sample exams &mdash; the mark
+              range each chapter usually occupies on a paper, sorted by average weight.
+            </p>
+          </div>
+          <span class="exi-badge exi-badge--live">Phase 1 · Live</span>
+        </header>
+
+        <section class="exi-filters" aria-label="Weightage filters">
+          <div class="exi-field">
+            <label class="exi-field-label" for="exi-filter-subject">Subject</label>
+            <select id="exi-filter-subject" class="exi-select">
+              <option value="">All subjects</option>
+            </select>
+          </div>
+        </section>
+
+        <section class="exi-card" aria-label="Chapter weightage">
+          <p class="exi-range-note">
+            Band = lowest&ndash;highest marks the chapter occupied on any past paper ·
+            tick = average.
+          </p>
+          <div id="exi-weightage-body"></div>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/lucide@0.454.0/dist/umd/lucide.min.js"></script>
+  <script src="js/exi-api.js"></script>
+  <script src="js/exi-shell.js"></script>
+  <script src="js/pages/exam-patterns.js"></script>
+</body>
+</html>

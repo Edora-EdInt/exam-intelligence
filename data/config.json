@@ -1,0 +1,23 @@
+{
+    "chapterTargetQuestions":  10,
+    "strongChapterPct":  80,
+    "weakChapterPct":  60,
+    "readiness":  [
+                      {
+                          "minPct":  80,
+                          "label":  "Excellent"
+                      },
+                      {
+                          "minPct":  65,
+                          "label":  "Good"
+                      },
+                      {
+                          "minPct":  50,
+                          "label":  "Needs Work"
+                      },
+                      {
+                          "minPct":  0,
+                          "label":  "At Risk"
+                      }
+                  ]
+}

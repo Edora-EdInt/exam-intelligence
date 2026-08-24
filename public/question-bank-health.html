@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Question Bank Health · EdInt Intelligence</title>
+  <link rel="icon" href="data:," />
+  <script src="js/exi-boot.js"></script>
+  <link rel="stylesheet" href="css/exi.css" />
+</head>
+<body data-exi-page="question-bank-health">
+  <div class="exi-app">
+    <main class="exi-content">
+      <div class="exi-page">
+        <header class="exi-page-head">
+          <div>
+            <h1 class="exi-page-title">Question Bank Health</h1>
+            <p class="exi-page-sub">
+              Top-level coverage of the question bank and how complete each
+              chapter's question pool is against its target.
+            </p>
+          </div>
+          <span class="exi-badge exi-badge--live">Phase 1 · Live</span>
+        </header>
+
+        <section class="exi-stat-grid" id="exi-bh-stats" aria-label="Bank totals"></section>
+
+        <div class="exi-two-col">
+          <section class="exi-card" aria-label="Board and class coverage">
+            <h2 class="exi-card-title">Board / class coverage</h2>
+            <div id="exi-bh-coverage"></div>
+          </section>
+          <section class="exi-card" aria-label="Methodology">
+            <h2 class="exi-card-title">How completeness is measured</h2>
+            <p class="exi-muted" style="font-size:13.5px; max-width:52ch;">
+              Each chapter is compared against a configurable target of
+              <strong class="exi-num" id="exi-bh-target">&hellip;</strong>
+              questions per chapter. The percentage shown is
+              questions&nbsp;&divide;&nbsp;target, capped at 100%. Chapters are
+              listed least-complete first so gaps surface at the top.
+            </p>
+            <p class="exi-muted" style="font-size:12.5px; margin-top:12px;">
+              Target source: <span class="exi-code">data/config.json &rarr; chapterTargetQuestions</span>
+            </p>
+          </section>
+        </div>
+
+        <section class="exi-card" style="margin-top:20px;" aria-label="Chapter completeness">
+          <h2 class="exi-card-title">Chapter completeness</h2>
+          <div id="exi-bh-completeness"></div>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/lucide@0.454.0/dist/umd/lucide.min.js"></script>
+  <script src="js/exi-api.js"></script>
+  <script src="js/exi-shell.js"></script>
+  <script src="js/pages/question-bank-health.js"></script>
+</body>
+</html>

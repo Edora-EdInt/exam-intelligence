@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Adaptive Demo · EdInt Intelligence</title>
+  <link rel="icon" href="data:," />
+  <script src="js/exi-boot.js"></script>
+  <link rel="stylesheet" href="css/exi.css" />
+</head>
+<body data-exi-page="adaptive-demo">
+  <div class="exi-app">
+    <main class="exi-content">
+      <div class="exi-page">
+        <header class="exi-page-head">
+          <div>
+            <h1 class="exi-page-title">Adaptive Difficulty Demo</h1>
+            <p class="exi-page-sub">
+              The pure assessment engine that will drive real exams later.
+              Click answers and watch the suggested next difficulty update live.
+            </p>
+          </div>
+          <span class="exi-badge exi-badge--live">Phase 3 · Live</span>
+        </header>
+
+        <div class="exi-two-col">
+          <section class="exi-card" aria-label="Adaptive engine state">
+            <h2 class="exi-card-title">Engine state</h2>
+            <div class="exi-level-track" id="exi-level-track">
+              <div class="exi-level-pill" data-level-index="0">Easy</div>
+              <div class="exi-level-pill" data-level-index="1">Medium</div>
+              <div class="exi-level-pill" data-level-index="2">Hard</div>
+            </div>
+            <dl class="exi-adaptive-stats" id="exi-adaptive-stats"></dl>
+            <div class="exi-preset-row">
+              <button type="button" class="exi-btn exi-btn--primary" id="exi-btn-correct">
+                <i data-lucide="check"></i>Answer Correct
+              </button>
+              <button type="button" class="exi-btn" id="exi-btn-incorrect">
+                <i data-lucide="x"></i>Answer Incorrect
+              </button>
+              <button type="button" class="exi-btn" id="exi-btn-reset">
+                <i data-lucide="rotate-ccw"></i>Reset
+              </button>
+            </div>
+            <p class="exi-note">
+              Rule: start at Medium · step up after 2 consecutive correct ·
+              step down after 1 incorrect · clamped to Easy/Hard. Tunable in
+              js/exi-adaptive.js.
+            </p>
+          </section>
+
+          <section class="exi-card" aria-label="Answer log">
+            <h2 class="exi-card-title">Answer log</h2>
+            <ul class="exi-answer-log" id="exi-answer-log"></ul>
+          </section>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/lucide@0.454.0/dist/umd/lucide.min.js"></script>
+  <script src="js/exi-api.js"></script>
+  <script src="js/exi-adaptive.js"></script>
+  <script src="js/exi-shell.js"></script>
+  <script src="js/pages/adaptive-demo.js"></script>
+</body>
+</html>
